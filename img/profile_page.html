@@ -1,0 +1,207 @@
+<!doctype html>
+
+<html>
+<head>
+<meta http-equiv = "Content-Type" content = "text/html; charset-utf-8" />
+	
+	<title>Profile Page</title>
+  <link rel="stylesheet" href='profile.css'>      
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="hf.css">
+</head>
+
+<body>
+  <div class="menu" style="position: fixed;position: -webkit-sticky;top: 0;z-index: 1;">
+			
+
+		
+		
+			
+    <nav class="navbar navbar-inverse" style="">
+      <div class="container-fluid">
+      <nav class="navbar navbar-inverse">
+        <div class="leftmenu">
+          <img src="logo.jpg" class="img">
+          <h4> BRANS</h4>
+          <h1>  CONSULTANTS</h1>
+        </div>
+        <div class="centermenu">
+          <ul>
+            <input type="text" placeholder="Search..">
+            <button id="buttonone"onclick="window.location='login.html'">Login</button>
+            <button id="buttontwo" onclick="window.location='signup.html'">Register</button>
+            
+          </ul>
+        
+        </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span> 
+      </button>
+    
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+        
+        <ul class="nav navbar-nav">
+        
+        <li > <a href="index.html">HOME </a>  </li>
+        
+    
+        </ul>
+        
+        <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">CATEGORIES
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="#">MANUFACTURER</a></li>
+            <li><a href="#">DISTRIBUTOR</a></li>
+            <li><a href="#">SUPER STOCKIST</a></li>
+            <li><a href="#">OVERSEAS</a></li>
+            <li><a href="#">RETAILER</a></li>
+            <li><a href="#">BUY/SELL</a></li>
+            <li><a href="#">MANUFACTURING JOB</a></li>                        
+            <li><a href="#">THIRD PARTY MANUFACTURING</a></li>
+            <li><a href="#">INSTITUITIONAL SALE PARTNER</a></li>
+          </ul>
+        </li>
+        </ul>
+       
+        <ul class="nav navbar-nav">
+        <li>
+          <a href="adlogout.php">ABOUT</a></li>
+    
+        </ul>
+        <ul class="nav navbar-nav">
+        <li>
+          <a href="adlogout.php">OVERSEAS</a></li>
+    
+        </ul>
+        <ul class="nav navbar-nav">
+        <li>
+          <a href="adlogout.php">WORKING</a></li>
+    
+        </ul>
+        <ul class="nav navbar-nav">
+        <li>
+          <a href="adlogout.php">BLOGS</a></li>
+    
+        </ul>
+        <span style="color: white; font-size: 18px;float: right;margin-right: 2%;" >
+        <p><span class="glyphicon glyphicon-eye-open"></span>Visitors:0</p>    
+
+      </span>
+        
+      </div>
+    </div>
+      
+    </nav>
+    
+  </div>         
+  <div class="adjust">
+          <h2 style="text-align:left; color:black; font-size:35px;">Profile Page</h2> <br>
+
+          <form target="_blank">
+
+            <label for="cname"><b style="font-size: 20px;">Company name:</b></label><br>
+            <input type="text" id="cname" name="cname" placeholder="Company name" style="width: 70%;background-color: rgb(230, 233, 206);padding: 10px;display: inline-block;border: none;"<br><br>
+            <br>
+                        
+            <label for="profsum" style="font-size: 20px;"><b>Brief Company Profile:</b></label><br>
+            <!-- <textarea cols="70" rows="5" value="details" placeholder="details of company" style="width: 80%;background-color: rgb(230, 233, 206);display: inline-block;border: none;"></textarea> -->
+            <textarea cols="80" rows="5" placeholder="Company details" value="details" style="width: 80%;background-color: rgb(230, 233, 206);display: inline-block;border: none;">
+            </textarea>
+            <br><br>
+
+            <label for="phonen" style="font-size: 20px;"><b>Mobile/Telephone Number:</b></label><br>
+            <input type="tel" id="phonen" name="phonen" placeholder="code" style="width: 30px; position: relative;background-color: rgb(230, 233, 206); top:320;padding:10px;display: inline-block;border: none;"><br><br>
+            
+            <input type="tel" id="phonen" name="phonen" placeholder="phoneno" style="width: 40%; margin-left: 60px; top: 368px; position: absolute;background-color: rgb(230, 233, 206);padding: 10px;display: inline-block;  
+  border: none;"><br>
+           
+            <label for="role" style="font-size: 20px;"><b>Role:</b></label><br>
+        <select name="xyz" id="xyz"style="width: 150px;background-color: rgb(230, 233, 206);padding: 10px;display: inline-block;  
+  border: none;">
+        <option value="choose">Choose category</option>
+        <option value="Distributor">Distributor</option>
+        <option value="Retailer">Retailer</option>
+        <option value="Manufacturer">Manufacturer</option>
+        <option value="business">Business for investor</option>
+        <option value="Logistics">Logistics</option>
+        <option value="stocklist">Super Stocklist</option>
+        
+  </select>
+            <!-- <p id="role">Something</p>
+            <script src="/category.js"></script> -->
+            <!-- <input type="text" id="role" name="role" style="width: 70%;"><br><br> -->
+            <br><br>
+            <label for="zipin" style="font-size: 20px;"><b>Location:</b></label><br>
+            <input type="text" id="location" name="location" placeholder="location" style="width: 60%;background-color: rgb(230, 233, 206);padding: 10px;display: inline-block;  
+  border: none;"><br><br>
+            
+            
+            <label for="emailid" style="font-size: 20px;"><b>Email Id:</b></label><br>
+            <input type="email" id="emailid" name="emailid" placeholder="emailid" style="width: 70%;background-color: rgb(230, 233, 206);padding: 10px;display: inline-block;  
+  border: none;"><br><br>
+                        
+            <input type="submit" value="Submit" style="margin-left: 230px;  background-color: black;color: white;background-position: center;padding: 16px 20px;  border: none;  cursor: pointer; width: 20%;opacity: 0.9;"> &nbsp &nbsp
+            
+         
+          </form> 
+
+  </div>
+  <footer class="footer-distributed">
+ 
+    <div class="footer-left">
+        <img src="logo.jpg">
+      <h3>About<span> Brans Consultants</span></h3>
+  
+      <p class="footer-links">
+        <a href="#">Home</a>
+        |
+        <a href="#">Blog</a>
+        |
+        <a href="#">About</a>
+        |
+        <a href="#">Contact</a>
+      </p>
+  
+      <p class="footer-company-name">© 2019 Brans Consultants Pvt. Ltd.</p>
+    </div>
+  
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+          <p><span>309 - XYZ,
+           Bldg. No. A - 1, Sector - 1</span>
+          Mahape, Navi Mumbai - 400710</p>
+      </div>
+  
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91 22-27782183</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@bransconsultants.com">support@bransconsultants.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right" >
+      <p class="footer-company-about">
+        <span>About the company</span>
+        We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+	
+</body>
+	
+</html>
