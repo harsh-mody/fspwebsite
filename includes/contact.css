@@ -1,15 +1,28 @@
-<!DOCTYPE html>
-<html>
-<title> Contact Us  </title>
-<link rel = "icon" href ="images/logo1.jpg"  type = "image/x-icon">
-<head>
-<?php
-//this page is for registering a user .
- include 'navigation.php';
- 
- ?>
- <style>
-
+h1,h2,h3,h4,h5,h6 
+{
+	margin: 0px;
+}
+.navbar
+{
+	background-color: #556AFF !important;
+}
+.page-footer
+{
+	background-color: #556AFF !important;
+}
+p 
+{
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: white;
+	margin: 0px;
+}
+ul, li 
+{
+	margin: 0px;
+	list-style-type: none;
+}
 .input100 
 {
   height: 50px;
@@ -36,23 +49,43 @@ button {
 button:hover {
 	cursor: pointer;
 }
+.container {
+	max-width: 1200px;
+}
+.container-contact100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background:  white !important; 
+}
 
+.wrap-contact100 {
+  width: 500px;
+  background: white !important;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 42px 55px 45px 55px;
+  box-shadow: 13px 13px 17px rgba(0, 0, 0, 0.25),
+	  -9px -9px 11px rgba(255, 255, 255, 0.3);
+    
+}
+.contact100-form {
+  width: 100%;
 
+}
 
 .contact100-form-title {
   display: block;
   font-family: Poppins-Bold;
   font-size: 40px;
-  color: white;
+  color: #164EED;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 44px;
-  background: #c7b198;
-  
-  border: 1px solid #B0C4DE;
-  border-bottom: none;
-  border-radius: 10px 10px 0px 0px;
-  padding: 20px;
 }
 
 .wrap-input100 {
@@ -77,7 +110,7 @@ button:hover {
   background: transparent;
   font-family: Poppins-Medium;
   font-size: 18px;
-  color: #596e79;
+  color: #164EED;
   line-height: 1.2;
   padding: 0 5px;
   border-radius: 8px;
@@ -104,7 +137,7 @@ button:hover {
   width: 0;
   height: 2px;
   transition: all 0.4s;
-  background: #dfd3c3;
+  background: #164EED;
 }
 
 input.input100 {
@@ -112,7 +145,7 @@ input.input100 {
 }
 
 textarea.input100 {
-  min-height: 150px;
+  min-height: 250px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -145,8 +178,8 @@ textarea.input100 {
   z-index: -1;
   width: 300%;
   height: 100%;
-  background-color: #c7b198;
- 
+  background-color: #4CAF50;
+  opacity: 0.5 !important;
 }
 .contact100-form-btn {
   display: flex;
@@ -160,13 +193,12 @@ textarea.input100 {
   color: #FFFFFF;
   line-height: 1.2;
 }
-
 .contact100-form-btn:hover
 {
-	  background-color: #c7b198;
+	  background-color: #4CAF50;
   	opacity: 1 !important;
   	transition: all 0.4s;
-} 
+}
 .wrap-contact100-form-btn:hover .contact100-form-bgbtn {
   left: 0;
 }
@@ -185,86 +217,3 @@ textarea.input100 {
     padding: 72px 15px 65px 15px;
   }
 }
-
-
-</style>
-</head>
-<body style="background: #F8F8FF;">
-<fieldset style="
-	overflow: hidden; 
-	color:black; 
-	text-align: center; 
-	margin-top: 5em;
-	width: 100%; 
-	font-size: 120%;  background: #F8F8FF;
-	font-family:Arial, Helvetica, sans-serif; "
- >
-
-     <h1 > CONTACT US</h1>
-	<br>
-	<p style= "font-size: 25px;  
-	font-family:Poppins-Bold ;"> 
-	PHNO: +91-1010101010<br>
-	EMAIL : FSPConsultants@gmail.com<br>
-	ADDRESS: abc location <br>
-	or <br>
-	Send your message to us, we will surely respond as soon as possible .</p>
-	<br>
-	
-	<!-- THIS FORM IS TO BE CONNECTED TO DATABASE -->
-  
-  	
- 
-		
-			<form class="contact100-form validate-form" style="width:30% " method="post" >
-				
-				<div class="wrap-input100 validate-input" data-validate="Name is required"> 
-					
-					<span class="label-input100">Your Name</span>
-					<input class="input100" type="text" name="name" placeholder="Enter your name">
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: example@email-provider.com">
-					<span class="label-input100">Email</span>
-					<input class="input100" type="text" name="email" placeholder="Enter your email addess">
-					<span class="focus-input100"></span>
-				</div>
-
-				
-					<span class="focus-input100"></span>
-				<div class="wrap-input100 validate-input" data-validate = "Message is required">
-					<span class="label-input100">Message</span>
-					<textarea class="input100" name="message" placeholder="Your message here..."></textarea>
-					<span class="focus-input100"></span>
-				</div>
-				<div class="container-contact100-form-btn ">
-					<div class="wrap-contact100-form-btn">
-						<div class="contact100-form-bgbtn"></div>
-						<button class="contact100-form-btn">
-							<span>
-								Send Query 
-								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-							</span>
-						</button>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
- 
-	
-    
-
-  </form>
-  <br>
-	<p> 
-	
-	
-	</p>
-	<br>
-	</fieldset >
-  
-</body>
-<?php include 'includes/footer.php'; ?>
-</html>

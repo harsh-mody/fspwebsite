@@ -2,10 +2,6 @@
 <html>
 <head>
 
-<?php include 'navigation.php'; 
-session_start();?>
-
-
 </head>
 <body>
 <?php
@@ -73,9 +69,7 @@ session_start();?>
 							break;}
 							case "serv":{$UPDATE = "UPDATE  ServiceProviders SET cname='$cname',Cemail='$Cemail', descrip='$desc',facebook='$facebook',linkedin='$linkedin',
 										 interest='$interest',phno='$phno',location='$location' WHERE email='$email'  ";
-										
-									
-							break;}
+break;}
 							case "stock":{$UPDATE = "UPDATE  Stockist SET cname='$cname',Cemail='$Cemail', descrip='$desc',facebook='$facebook',linkedin='$linkedin',
 										 interest='$interest',phno='$phno',location='$location' WHERE email='$email'  ";
 							break;}
@@ -92,20 +86,18 @@ session_start();?>
 										if($stmt2===TRUE)
   						    					{
 													
-													echo " updated password " ;
+													//echo " updated password " ;
 											
 												
 											}
 										else
-											{echo "Error updating password " .$conn->error;
+											{//echo "Error updating password " .$conn->error;
 										die();}
 										if($stmt===TRUE)
   						    					{
 													//after updating redirect to company.php
-													header("Location:company.php");;
-													
-											
-												
+													header("location:company.php");
+	
 											}
 										else
 											{echo "Error updating record: " .$conn->error;
@@ -132,6 +124,5 @@ session_start();?>
 		die();
 	}
 ?>
-
 </body>
 </html>

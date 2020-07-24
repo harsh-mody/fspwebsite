@@ -14,6 +14,21 @@ integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <style>
+  .img-slider{	
+	box-shadow:  12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+	-8px -8px 12px 0 rgba(66, 63, 63, 0.3);
+}
+
+.carousel-item > img {
+  height: 1000px;
+  
+}
+
+.slider-info {
+  background-color: rgba(167, 154, 154, 0.7);
+  border-radius: 10px;
+}
+
 h1	
       {	
 	text-align:center; 		font-family: Arial, Helvetica, sans-serif;

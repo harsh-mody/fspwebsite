@@ -33,7 +33,109 @@ else
 <marquee direction="right" align="centre" behavior="alternate" bgcolor="" scrolldelay="100" scrollamount="4" width="100%">
 <br>!! Welcome To FSP CONSULTANTS  <?php echo $email; ?>!!!<br>&nbsp</marquee>
 
+<!-- imgslider -->
 
+    <div class="img-slider">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="static/images/campus.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block slider-info">
+              <h5 style="font-size: 3em;color: black;">Campus Hiring</h5>
+              <p style="font-size: 2em;color: black;">
+                "Work Hard. Dream Big. We are there to help you."
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="static/images/percall.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption  d-md-block slider-info">
+              <h5 style="font-size: 3em;color: black;">Percall</h5>
+              <p style="font-size: 2em;color: black;">
+              "Work Hard. Dream Big. We are there to help you."
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="static/images/intern.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption  d-md-block slider-info">
+              <h5 style="font-size: 3em;color: black;">Internship</h5>
+              <p style="font-size: 2em;color: black;">
+              "Work Hard. Dream Big. We are there to help you."
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="static/images/freelancer.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption  d-md-block slider-info">
+              <h5 style="font-size: 3em;color: black;">Freelance</h5>
+              <p style="font-size: 2em;color: black;">
+              "Work Hard. Dream Big. We are there to help you."
+              </p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="static/images/recruiter.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block slider-info">
+              <h5 style="font-size: 3em;color: black;">Recruiter's MarketPlace</h5>
+              <p style="font-size: 2em;color: black;">
+              "Work Hard. Dream Big. We are there to help you."
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="static/images/hr.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block slider-info">
+              <h5 style="font-size: 3em;color: black;">Human Resources</h5>
+              <p style="font-size: 2em;color: black;">
+              "Work Hard. Dream Big. We are there to help you."
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- imgslider -->
  <div class="container">
             <div class="row" >
                 <div class="abt-head" >
@@ -46,7 +148,7 @@ else
         
                 </div>
             </div>
-<fieldset class="container-fluid" style=" overflow: hidden; color:black; background: url(img/distributor.jpeg)no-repeat ;-webkit-background-size: cover; 
+<fieldset class="container-fluid" style=" overflow: hidden; color:black; background: url(images/distributor.jpeg)no-repeat ;-webkit-background-size: cover; 
 -moz-background-size: cover; 
 -o-background-size: cover; margin-top: 5em; height: 300px ">
 <div>

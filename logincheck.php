@@ -3,10 +3,7 @@
 <html>
 <head>
   <title>Registration</title>
-  <?php
-//this page is a form for login 
- 
- include 'includes/header.php'; ?>
+
 </head>
 
 <body>

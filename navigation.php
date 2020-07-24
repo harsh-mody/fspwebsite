@@ -32,7 +32,7 @@
               <i class="fa fa-home" aria-hidden="true"></i> Home<span class="sr-only">(current)</span></a
               >
             </li>
-
+           
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="distributor.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Categories
@@ -71,13 +71,12 @@
       </li>
    
    
-      <?php
+<?php
 if( $_SESSION['loggedin']=="yes")
 {
 	?>
 	<li class="nav-item">
         <a class="nav-link"  href="company.php">Profile</a></li>
-	  
         <li class="nav-item" >
         <a class="nav-link"  href="logout.php">Logout</a></li>
     
@@ -93,15 +92,8 @@ else
         <a class="nav-link" href="register.php">Register</a></li>
     
 	<?php
-	
 }		 ?>
-    
   </div>
 </nav>
-
-
-
-
-
 </body>
 </html>
