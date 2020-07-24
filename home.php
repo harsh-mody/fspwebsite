@@ -46,179 +46,138 @@ else
         
                 </div>
             </div>
-<fieldset style=" overflow: hidden; color:black; background: url(images/distributor.jpeg)no-repeat ;-webkit-background-size: cover; 
+<fieldset class="container-fluid" style=" overflow: hidden; color:black; background: url(img/distributor.jpeg)no-repeat ;-webkit-background-size: cover; 
 -moz-background-size: cover; 
--o-background-size: cover; margin-top: 5em;width: 100%; height: 400px ">
-<div class="row">
+-o-background-size: cover; margin-top: 5em; height: 300px ">
+<div>
+<br>
 <b>Your Success Begins With Us</b></div><br><br>
 <div class="row">
 
-<div style="float: left; 
-	width: 80px;
-	height :80px;
-	padding: 25px 20px 0px 80px;"> 
-				 
+	<div class="col-sm-3" style="float: left;"> 			 
 		<span> 
 		Distributor
 		<br>			
-		<a href="distributor.php"><img src="img/warehouse.jpg" style="width: 50px; height: 50px;"/></a>
+		<a href="distributor.php"><img class="rounded-circle" src="img/warehouse.jpg" style="width: 50px; height: 50px;"/></a>
 		</span>
-		</div>
+	</div>
 		
-<div style="float: left; 
-	width: 80px;
-	height :80px;
-	padding: 25px 20px 0px 80px;"> 
-				 
+	<div class="col-sm-3" style="float: left;"> 
 		<span> 
 		Manufacturer
 		<br>
-		<a href="distributor.php"><img src="img/labourer.png" style="width: 50px; height: 50px;"/></a>
+		<a href="distributor.php"><img class="rounded-circle" src="img/labourer.png" style="width: 50px; height: 50px;"/></a>
 		</span>
-		</div>
-<div style="float: left; 
-	width: 80px;
-	height :80px;
-	padding: 25px 20px 0px 80px;"> 
-				 
+	</div>
+	
+	<div class="col-sm-3" style="float: left; "> 
 		<span> 
 		Super Stockist
 		<br>			
-		<a href="distributor.php"><img src="img/retailer.png" style="width: 50px; height: 50px;"/></a>
+		<a href="distributor.php"><img class="rounded-circle" src="img/retailer.png" style="width: 50px; height: 50px;"/></a>
 		</span>
-		</div>
-<div style="float: left; 
-	width: 80px;
-	height :80px;
-	padding: 25px 20px 0px 80px;"> 
-				 
+	</div>
+	
+	<div class="col-sm-3" style="float: left;"> 
 		<span> 
 		Service Provider
 		<br>			
-		<a href="distributor.php"><img src="img/institutional trade.jpg" style="width: 50px; height: 50px;"/></a>
+		<a href="distributor.php"><img class="rounded-circle" src="img/institutional trade.jpg" style="width: 50px; height: 50px;"/></a>
 		</span>
-		</div>
-<div style="float: left; 
-	width: 80px;
-	height :80px;
-	padding: 25px 20px 0px 80px;"> 
-				 
+	</div>
+</div>
+<br><br>
+<div class="row">
+	<div class="col-sm-3" style="float: left;"> 
 		<span> 
 		Retailer
 		<br>			
-		<a href="distributor.php"><img src="img/brand oem.png" style="width: 50px; height: 50px;"/></a>
+		<a href="distributor.php"><img class="rounded-circle" src="img/brand oem.png" style="width: 50px; height: 50px;"/></a>
 		</span>
-		</div>
-</div>
-<div style="float: left; 
-	width: 80px;
-	height :80px;
-	padding: 25px 20px 0px 80px;"> 
-				 
+	</div>
+	
+	<div class="col-sm-3" style="float: left;"> 
 		<span> 
 		Buy/Sell
 		<br>			
-		<a href="distributor.php"><img src="img/super stockist.png" style="width: 50px; height: 50px;"/></a>
+		<a href="distributor.php"><img class="rounded-circle" src="img/super stockist.png" style="width: 50px; height: 50px;"/></a>
 		</span>
-		</div>
-<div style="float: left; 
-	width: 80px;
-	height :80px;
-	padding: 25px 20px 0px 80px;"> 
-				 
+	</div>
+	
+	<div class="col-sm-3" style="float: left;"> 
 		<span> 
 		Trader
 		<br>			
-		<a href="distributor.php"><img src="img/buysell.jpg" style="width: 50px; height: 50px;"/></a>
+		<a href="distributor.php"><img class="rounded-circle" src="img/buysell.jpg" style="width: 50px; height: 50px;"/></a>
 		</span>
-		</div>
+	</div>
 		
-<div style="float: left; 
-	width: 80px;
-	height :80px;
-	padding: 25px 20px 0px 80px;"> 
-				 
+	<div class="col-sm-3" style="float: left; "> 
 		<span> 
- 
 		Institutional Partner
 		<br>			
-		<a href="distributor.php"><img src="img/service provider.png" style="width: 50px; height: 50px;"/></a>
+		<a href="distributor.php"><img class="rounded-circle" src="img/service provider.png" style="width: 50px; height: 50px;"/></a>
 		</span>
-		</div>
+	</div>
+</div>
+	</div>
 <br><br>
 </fieldset>
 <!--SOME CONTENT -->
-<fieldset style=" overflow: hidden; color:white; background: #111 ;-webkit-background-size: cover; 
+<fieldset class="container-fluid" style=" overflow: hidden; color:white; background: #111 ;-webkit-background-size: cover; 
 -moz-background-size: cover;  
--o-background-size: cover; width: 100%; height: 300px ">
+-o-background-size: cover; height: 200px ">
 
 FSP Consultants is the pioneer of organised recruitment in India. Our roots in management consulting enable us to bring a unique approach to recruitment.
 We provide a range of talent acquisition services by leveraging our domain knowledge built over four decades.
 </fieldset>
-
+<br><br>
 <!-- comment section -->
-<div class="row">
-<fieldset style=" overflow: hidden; color:black; background: #faf2e4 ;-webkit-background-size: cover; 
+<fieldset class="container-fluid" style=" overflow: hidden; color:black; background: #faf2e4 ;-webkit-background-size: cover; 
 -moz-background-size: cover; 
--o-background-size: cover; width: 100%; height: 300px ">
-CLIENT TESTIMONIALS 
+-o-background-size: cover; height: 250px ">
+<br>
+CLIENT TESTIMONIALS<br> 
 (What Our Customer Says...)
 <br><br>
-<div style="float: left;
-	width: 1px;
-	height :1px;
-	padding: 25px 20px 0px 80px;"></div>
-	
-	<div style="float: left;
+<div class="row">
+<div class="col-sm-1"></div>
+	<div class="col-sm-2" style="float: left;
 	background: black;
-color: white;	
-	width: 150px;
-	height :150px;
-	padding: 25px 20px 0px 80px;
+color: white;
 	text-align: left"> 
 	
 	<b>Maggi Khan</b><br>
 	Marketing VP<br><br>
-	text text text
+	text text text<br><br>
 	</div>
-	<div style="float: left;
-	width: 1px;
-	height: 1px;
-	padding: 25px 20px 0px 80px;"></div>
-	<div style="float: left;
+<div class="col-sm-2"></div>
+	<div class="col-sm-2" style="float: left;
 	background: black;
-color: white;	
-	width: 150px;
-	height :150px;
-	padding: 25px 20px 0px 80px;
+color: white;
 	text-align: left"> 
 	
 	<b>Maggi Khan</b><br>
 	Marketing VP<br><br>
-	text text text
+	text text text<br><br>
 	</div>
-	<div style="float: left;
-	width: 1px;
-	height :1px;
-	padding: 25px 20px 0px 80px;"></div>
-	<div style="float: left;
+<div class="col-sm-2"></div>
+	<div class="col-sm-2" style="float: left;
 	background: black;
-color: white;	
-	width: 150px;
-	height :150px;
-	padding: 25px 20px 0px 80px;
+color: white;
 	text-align: left"> 
 	
 	<b>Maggi Khan</b><br>
 	Marketing VP<br><br>
-	text text text
+	text text text<br><br>
 	</div>
-<br>
-
+<div class="col-sm-1"></div>
 </div>
-	</fieldset>	
-
-<div class="div1">
+<br>
+</fieldset>	
+<div class="container-fluid" style=" color:black; background: #faf2e4 ;-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover;">
 		<button class="open-button" class="btn" onclick="openForm()">Add Your Comment</button>
 
 		<!-- form for adding comment -->
@@ -226,18 +185,17 @@ color: white;
   <form action="/action_page.php" class="form-container">
     <h1>ADD YOUR COMMENTS</h1><br>
 
-    <label for="Name"><b>Name<br></b></label>
+    <label for="Name"><b>Name</b></label>
     <input type="text" placeholder="Enter Name" name="Name" required>
-
-    <label for="Profession"><b><br>Profession<br></b></label>
+	<br>
+    <label for="Profession"><b>Profession</b></label>
     <input type="Text" placeholder="Enter Profession" name="Profession" required>
-	
-	<label for="COMMENTS"><b><br>COMMENTS<br></b></label>
+	<br>
+	<label for="COMMENTS"><b>COMMENTS</b></label>
     <input type="Text" placeholder="Share your views" name="comment" required>
-
 	<br><br>
-    <button type="submit" class="btn">Submit</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+    <button type="submit" class="open-button" class="btn">Submit</button>
+    <button type="button" class="open-button" class="btn cancel" onclick="closeForm()">Cancel</button>
   </form>
 </div>
 
@@ -251,11 +209,10 @@ function closeForm() {
 }
 </script>
 </div>
-
-				
-<fieldset style=" overflow: hidden; color:white; background:#000000 ;-webkit-background-size: cover; 
+<br><br>	
+<fieldset class="container-fluid" style=" overflow: hidden; color:white; background:#000000 ;-webkit-background-size: cover; 
 -moz-background-size: cover;  
--o-background-size: cover; width: 100%; height: 300px ">
+-o-background-size: cover; height: 300px ">
 
 
   <div class="row padding0">
@@ -288,12 +245,10 @@ function closeForm() {
 <p>Industries covered</p>
 </div>
 </div>
-
   <div class="clear"></div>
 </div>
-
-
 </fieldset>
+<br><br>
 </body>
 <?php include 'includes/footer.php'; ?>
 

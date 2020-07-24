@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="includes/style.css">
+<link rel="stylesheet" href="css/footer.css">
 <?php include 'navigation.php';?>
 <style>
 
@@ -31,8 +33,8 @@ h1 {
 			<br><br>			
 			<form method="post" action="">
 			<select name="database">
-			<option value="abc">verified</option>
-			<option value="abc">unverified</option>
+			<option value="abc" selected>verified</option>
+			<option value="xyz">unverified</option>
 			</select>
 			</form>
 			</span>
@@ -43,7 +45,7 @@ h1 {
 				<br><br>			
 				<form method="post" action="">
 				<select name="search">
-				<option value="manufacturer">manufacturer</option>
+				<option value="manufacturer" selected>manufacturer</option>
 				<option value="retailer">retailer</option>
 				<option value="distributor">distributor</option>
 				<option value="self">buysell</option>
@@ -124,7 +126,7 @@ h1 {
 				<br><br>			
 				<form method="post" action="">
 				<select name="range">
-				<option value="domestic">domestic</option>
+				<option value="domestic" selected>domestic</option>
 				<option value="overseas">overseas</option>
 				</select>
 				</form>
@@ -134,9 +136,6 @@ h1 {
 			</div>
 			<button type="button" style="background: yellow; color: black">Submit</button>
 	</fieldset>
-	<br><br>
-	
-	<br><br>
 	<br><br>
 	<?php
 	if(isset($_POST["submit"]))

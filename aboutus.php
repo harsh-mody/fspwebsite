@@ -19,6 +19,7 @@ h1 {
 	font-family: serif;
 	font-weight: normal;
 	text-transform: uppercase;
+	color:white;
 } 
 </style>
 </head>
@@ -26,13 +27,12 @@ h1 {
 <body>
 
 	
-	<fieldset style="
+	<fieldset class="container-fluid" style="
 	overflow: hidden; 
 	color:white;
 	background: #111; 
 	text-align: center; 
-	margin-top: 5em;
-	width: 100%; ">
+	margin-top: 5em; ">
 	<br>
      <h1 >ABOUT US </h1>
 	<br>
@@ -40,7 +40,7 @@ h1 {
 	<br>
 	</fieldset >
 	<br>
-	<fieldset style="
+	<fieldset class="container-fluid" style="
 	overflow: hidden; 
 	color:white;
 	background: #111; 
@@ -50,10 +50,9 @@ h1 {
      <br>
 	 <h1 >TEAM MEMBERS </h1>
 	<br>
-	<div style="float: left; 
-	width: 350px;
-	height :250px;
-	padding: 25px 20px 0px 80px;"> 
+	<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-3" style="float: left; "> 
 				 
 				<span> 
 				<br>
@@ -66,10 +65,8 @@ h1 {
 					Description...<br>
 				</span> 
 			</div>
-			<div style="float: left; 
-	width: 250px;
-	height :250px;
-	padding: 25px 20px 0px 80px;"> 
+	<div class="col-sm-1"></div>
+			<div class="col-sm-3" style="float: left; "> 
 				 
 				<span> 
 				<br>
@@ -80,10 +77,8 @@ h1 {
 					Description...<br>
 				</span> 
 			</div>
-			<div style="float: left; 
-	width: 250px;
-	height :250px;
-	padding: 25px 20px 0px 80px;"> 
+	<div class="col-sm-1"></div>
+			<div class="col-sm-3" style="float: left;"> 
 				 
 				<span> 
 				<br>
@@ -94,8 +89,10 @@ h1 {
 					Description...<br>
 				</span> 
 			</div>
+			</div>
+			<br>
 	</fieldset>
-	
+	<br><br>
  <?php include 'includes/footer.php'; ?> 
 
 </body>

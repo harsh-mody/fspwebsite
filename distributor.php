@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+<link rel="stylesheet" href="includes/style.css">
 <link rel="stylesheet" href="css/footer.css">
 <?php include 'navigation.php';?>
 <style>
@@ -33,8 +33,8 @@ h1 {
 			<br><br>			
 			<form method="post" action="">
 			<select name="database">
-			<option value="abc">verified</option>
-			<option value="abc">unverified</option>
+			<option value="abc" selected>verified</option>
+			<option value="xyz">unverified</option>
 			</select>
 			</form>
 			</span>
@@ -45,7 +45,7 @@ h1 {
 				<br><br>			
 				<form method="post" action="">
 				<select name="search">
-				<option value="manufacturer">manufacturer</option>
+				<option value="manufacturer" selected>manufacturer</option>
 				<option value="retailer">retailer</option>
 				<option value="distributor">distributor</option>
 				<option value="self">buysell</option>
@@ -126,7 +126,7 @@ h1 {
 				<br><br>			
 				<form method="post" action="">
 				<select name="range">
-				<option value="domestic">domestic</option>
+				<option value="domestic" selected>domestic</option>
 				<option value="overseas">overseas</option>
 				</select>
 				</form>
@@ -143,8 +143,8 @@ h1 {
 	-webkit-background-size: cover; 
 	-moz-background-size: cover;  
 	-o-background-size: cover; 
-	height: 300px ;">
-	
+	height: 200px ;">
+	<br><br>
 	<div class="row">
 	<div class="col-sm-1"></div>
 	<div class="col-sm-3" style="float: left;
@@ -153,9 +153,10 @@ color: white;">
 	
 	<div class="row">
 	<h4>Buiseness Associates,IT Service</h4>
-	Individual buyer in india<br>
+	Individual buyer in india
 	</div>
-	<div class="row"><br>
+	<br>
+	<div class="row">
 	<a href="#" class="fa fa-facebook"></a>
 				<a href="#" class="fa fa-twitter"></a>
 				<a href="#" class="fa fa-linkedin"></a>
@@ -163,8 +164,10 @@ color: white;">
 				<a href="#" class="fa fa-instagram"></a>
 	</div>
 	<div class="row">
-	Interest: Business<br>
+	<br>
+	Interest: Business
 	</div>
+	<br>
 	<div class="row">
     <a href="home.php"><button type="button" style="background: yellow; color: black">View Business</button></a>
     <a href="home.php"><button type="button" style="background: yellow; color: black">Send Enquiry</button></a>
@@ -177,9 +180,10 @@ color: white;">
 	
 	<div class="row">
 	<h4>Buiseness Associates,IT Service</h4>
-	Individual buyer in india<br>
+	Individual buyer in india
 	</div>
-	<div class="row"><br>
+	<br>
+	<div class="row">
 	<a href="#" class="fa fa-facebook"></a>
 				<a href="#" class="fa fa-twitter"></a>
 				<a href="#" class="fa fa-linkedin"></a>
@@ -187,24 +191,26 @@ color: white;">
 				<a href="#" class="fa fa-instagram"></a>
 	</div>
 	<div class="row">
-	Interest: Business<br>
+	<br>
+	Interest: Business
 	</div>
+	<br>
 	<div class="row">
     <a href="home.php"><button type="button" style="background: yellow; color: black">View Business</button></a>
     <a href="home.php"><button type="button" style="background: yellow; color: black">Send Enquiry</button></a>
 	</div>
-	
 	</div>
-	<div class="col-sm-1"></div>
+<div class="col-sm-1"></div>
 	<div class="col-sm-3" style="float: left;
 	background: #111;
 color: white;"> 
 	
 	<div class="row">
 	<h4>Buiseness Associates,IT Service</h4>
-	Individual buyer in india<br>
+	Individual buyer in india
 	</div>
-	<div class="row"><br>
+	<br>
+	<div class="row">
 	<a href="#" class="fa fa-facebook"></a>
 				<a href="#" class="fa fa-twitter"></a>
 				<a href="#" class="fa fa-linkedin"></a>
@@ -212,15 +218,16 @@ color: white;">
 				<a href="#" class="fa fa-instagram"></a>
 	</div>
 	<div class="row">
-	Interest: Business<br>
+	<br>
+	Interest: Business
 	</div>
+	<br>
 	<div class="row">
     <a href="home.php"><button type="button" style="background: yellow; color: black">View Business</button></a>
     <a href="home.php"><button type="button" style="background: yellow; color: black">Send Enquiry</button></a>
 	</div>
-	
 	</div>
-	</div>
+</div>
 	</fieldset>
 	<br><br>
 	<br><br>
