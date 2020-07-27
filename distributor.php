@@ -21,6 +21,22 @@ h1 {
 	font-weight: normal;
 	text-transform: uppercase;
 }
+form, .content {
+ 
+  
+  
+ background: black;
+
+}
+.input-group {
+ margin: 10px 0px 10px 0px;
+}
+
+.input-group input {
+ 
+ font-size: 16px;
+
+}
 </style>
 </head>
 <body>

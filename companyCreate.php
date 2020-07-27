@@ -1,17 +1,13 @@
 
 <html>
 <head>
-
-<?php include 'navigation.php';
-session_start(); ?>
-
 </head>
 <body>
 <?php
 //this file creates company profile 
 	$email=$_POST['email'];
 	$Cemail=$_POST['Cemail'];				
-	$cname=$_POST['companyName'];
+	$cname=$_POST['cname'];
 	$desc=$_POST['desc'];
 	$facebook=$_POST['facebook'];
 	$linkedin=$_POST['linkedin'];
@@ -121,7 +117,7 @@ session_start(); ?>
 					$r=$conn->query($sql);
 								if($r===FALSE)
 								{
-									echo "ERROR FATAL " ;
+									//echo "ERROR FATAL " ;
 								}
 								else
 								 	{ 

@@ -359,7 +359,7 @@ $host="localhost";
 							<div class="input-group">
 		  <button class="contact100-form-btn" value="submit" name="Proceed">
                                 <span>
-                                    EDIT 
+                                    SUBMIT 
 									<br>
                                     <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
                                 </span>

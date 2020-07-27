@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="includes/style.css">
-<link rel="stylesheet" href="css/footer.css">
+
 <?php include 'navigation.php';?>
 <style>
 
@@ -21,6 +20,22 @@ h1 {
 	font-weight: normal;
 	text-transform: uppercase;
 }
+form, .content {
+ 
+  
+  
+  background: black;
+ 
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group input {
+  
+  font-size: 16px;
+ 
+}
 </style>
 </head>
 <body>
@@ -31,7 +46,7 @@ h1 {
 			<span> 
 			Database
 			<br><br>			
-			<form method="post" action="">
+			<form method="post"  action="">
 			<select name="database">
 			<option value="abc" selected>verified</option>
 			<option value="xyz">unverified</option>

@@ -52,6 +52,10 @@ text-align:center; 		font-family:Arial, Helvetica, sans-serif;	font-weight:bold;
 	
 }
 
+h5{text-align:left; 		font-family:Florence;
+	font-size:20px; 	
+	margin-left:150px;
+}
 
 .our-brand{
 	width: 40px;
@@ -90,11 +94,8 @@ nav {
 body {	 	background-repeat: no-repeat; 	 
 	font-family:Arial, Helvetica, sans-serif;	    line-height: 24px; font-size: 120%;  background: #F8F8FF;
         
-      margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-  padding: 0px 0px 0px 0px;
+    
+   display: block;  
      }
 
 
